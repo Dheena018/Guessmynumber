@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.png"
+      type="image/x-icon"
+    />
+    <title>Static HTML-CSS-JavaScript Projects</title>
+
+    <!-- FontAwesome CDN  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- normalize css -->
+   <!-- <link rel="stylesheet" href="normalize.css"> -->
+
+    <!-- custom css -->
+   <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <main class="card">
+        <div class="title">
+          <div class="guesess-container">
+          <h4 class="guess-container" ">Guesess: <strong id="guessess">5</strong></h4>
+          <h4 class="guess-container" >High Score: <strong id="guesses">0</strong></h4></div>
+            <h1 class="guess-title" id="title">Guess My Number</h1>
+            <div class="underline"></div>
+            <h3 class="guess-range" id="range">Range : 1 - 100</h3>
+            <div class="input-container">
+          <input type="number" class="input" id="container">
+            </div>
+            <div class="btn-container">
+              <button class="btn" id="submit">Guess</button>
+            </div>
+            <div class="restart">
+              <button type="button" id="restart">Restart</button>
+            </div>
+            <div class="para-container">
+              <p class="para" id="paragraph"></p>
+            </div>
+        </div>
+      
+    </main>
+    <!-- custom js -->
+    <script src="script.js"></script>
+  </body>
+</html>

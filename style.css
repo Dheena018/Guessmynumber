@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+  }
+ 
+  .card{
+    background-color: yellowgreen;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    gap: 1.5rem;
+
+  }
+  .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;  
+    width: 40rem;
+    padding: 2rem 2rem;
+    background-color: white;
+    margin:auto;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px  blue;
+}
+.guesess-container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: row;
+    gap: 8rem;
+}
+.input{
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: white;
+    border-radius: 10px;
+}
+.underline{
+    border: 2px solid blue;
+    width: 18rem;
+}
+.btn{
+    background-color: greenyellow;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    padding: 1rem 5rem;
+    margin: 1rem 2rem;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: red;
+}
+.restart{
+    display: none;
+}
